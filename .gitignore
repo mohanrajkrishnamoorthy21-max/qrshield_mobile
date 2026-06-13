@@ -43,3 +43,27 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Flutter build artifacts
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Platform generated files
+**/GeneratedPluginRegistrant.*
+**/generated_plugin_registrant.*
+**/generated_plugins.cmake
+
+# Android build
+android/build/
+
+# Local DB / backend
+*.sqlite3
+db.sqlite3
+django.zip
+django_backend/
+
+# IDE
+.vscode/
+.idea/
